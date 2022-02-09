@@ -22,7 +22,11 @@ const MovieCard = ({ movie }) => {
             <div className="movie-dashboard-image-container">
                 <MoviesDashboardImage src={'https://roovie.herokuapp.com/' + movie.moviePoster || 'https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png' } alt={movie.title} />
                 <div className="movie-dashboard-image-overlay">
-                    <div className="movie-dashboard-image-overlay-ratings">{movie.rating}</div>
+                    <div className="movie-dashboard-image-overlay-ratings-container">
+                        <div className="movie-dashboard-image-overlay-ratings">
+                            {movie.rating}
+                        </div>
+                    </div>
                     <button className="movie-dashboard-image-overlay-button" onClick={ openMovie }>Read More</button>
                 </div>
             </div>

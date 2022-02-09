@@ -6,9 +6,9 @@ export const InfoHeaderContainer = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100%;
+    height: calc(75vh - 100px);
     width: 70%;
-    margin: 25vh auto 14vh auto;
+    margin: 25vh auto 14vh;
     background: rgb(72, 180, 243, 0.2);
     border: 1px solid #333;
     border-radius: 20px;

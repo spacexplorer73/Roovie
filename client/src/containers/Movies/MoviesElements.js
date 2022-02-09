@@ -181,5 +181,5 @@ export const MoviesDashboardImageYear = styled.span`
 export const MoviesLoader = styled.div`
     display: flex;
     justify-content: center;
-    margin: 100px 0;
+    margin: 120px 0;
 `
